@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.flutter.plugins.cameraexample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:35:3-37:30
+12        android:name="android.hardware.camera"
+12-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:36:5-43
+13        android:required="true" />
+13-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:37:5-28
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:39:3-64
+15-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:39:20-62
+16    <uses-permission android:name="android.permission.FLASHLIGHT" />
+16-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:40:3-66
+16-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:40:20-64
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->[:camera] /Users/macbookpro/Desktop/uv_blind_andoid/camera/example/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-65
+17-->[:camera] /Users/macbookpro/Desktop/uv_blind_andoid/camera/example/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-62
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->[:camera] /Users/macbookpro/Desktop/uv_blind_andoid/camera/example/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
+18-->[:camera] /Users/macbookpro/Desktop/uv_blind_andoid/camera/example/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-68
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.exoplayer:exoplayer-core:2.12.1] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/680386ae00dbc0d78aece80358fc77fa/exoplayer-core-2.12.1/AndroidManifest.xml:24:5-79
+19-->[com.google.android.exoplayer:exoplayer-core:2.12.1] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/680386ae00dbc0d78aece80358fc77fa/exoplayer-core-2.12.1/AndroidManifest.xml:24:22-76
+20
+21    <application
+21-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:4:3-33:17
+22        android:name="io.flutter.app.FlutterApplication"
+22-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:7:5-53
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] /Users/macbookpro/.gradle/caches/transforms-2/files-2.1/6b399c2363bb098ebde1725d903cbda0/core-1.1.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:5:5-39
+26        android:label="camera_example" >
+26-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:6:5-35
+27        <activity
+27-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:8:5-19:16
+28            android:name="io.flutter.plugins.cameraexample.EmbeddingV1Activity"
+28-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:13:7-42
+29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection"
+29-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:9:7-100
+30            android:exported="true"
+30-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:12:7-30
+31            android:hardwareAccelerated="true"
+31-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:10:7-41
+32            android:launchMode="singleTop"
+32-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:11:7-37
+33            android:theme="@style/LaunchTheme"
+33-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:14:7-41
+34            android:windowSoftInputMode="adjustResize" >
+34-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:15:7-49
+35            <meta-data
+35-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:16:7-18:31
+36                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+36-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:17:9-74
+37                android:value="true" />
+37-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:18:9-29
+38        </activity>
+39        <activity
+39-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:20:5-31:16
+40            android:name="io.flutter.embedding.android.FlutterActivity"
+40-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:24:7-66
+41            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection"
+41-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:21:7-100
+42            android:hardwareAccelerated="true"
+42-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:22:7-41
+43            android:launchMode="singleTop"
+43-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:23:7-37
+44            android:theme="@style/LaunchTheme"
+44-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:25:7-41
+45            android:windowSoftInputMode="adjustResize" >
+45-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:26:7-49
+46            <intent-filter>
+46-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:27:7-30:23
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:28:9-60
+47-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:28:17-58
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:29:9-68
+49-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:29:19-66
+50            </intent-filter>
+51        </activity>
+52
+53        <meta-data
+53-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:32:5-67
+54            android:name="flutterEmbedding"
+54-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:32:16-47
+55            android:value="2" />
+55-->/Users/macbookpro/Desktop/uv_blind_andoid/camera/example/android/app/src/main/AndroidManifest.xml:32:48-65
+56    </application>
+57
+58</manifest>
